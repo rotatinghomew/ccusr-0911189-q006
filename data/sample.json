@@ -1,0 +1,107 @@
+{
+  "topics": [
+    {
+      "id": "museum",
+      "areas": [
+        "north",
+        "south"
+      ]
+    },
+    {
+      "id": "square",
+      "areas": [
+        "south"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "article": "a1",
+      "topic": "museum",
+      "state": "confirmed"
+    },
+    {
+      "article": "a2",
+      "topic": "museum",
+      "state": "confirmed"
+    },
+    {
+      "article": "a2",
+      "topic": "square",
+      "state": "confirmed"
+    },
+    {
+      "article": "a1",
+      "topic": "square",
+      "state": "review"
+    }
+  ],
+  "reads": [
+    {
+      "id": "read1",
+      "article": "a1",
+      "week": 1
+    },
+    {
+      "id": "read1",
+      "article": "a1",
+      "week": 1
+    },
+    {
+      "id": "read2",
+      "article": "a2",
+      "week": 1
+    },
+    {
+      "id": "read3",
+      "article": "a2",
+      "week": 2
+    }
+  ],
+  "subscriptions": [
+    {
+      "person": "R1",
+      "topic": "museum",
+      "state": "active",
+      "preference": "north"
+    },
+    {
+      "person": "R1",
+      "topic": "square",
+      "state": "stopped",
+      "preference": "south"
+    },
+    {
+      "person": "R2",
+      "topic": "museum",
+      "state": "active",
+      "preference": null
+    },
+    {
+      "person": "R3",
+      "topic": "museum",
+      "state": "active",
+      "preference": "south"
+    },
+    {
+      "person": "R3",
+      "topic": "square",
+      "state": "active",
+      "preference": "south"
+    }
+  ],
+  "publications": [
+    {
+      "id": "P4",
+      "week": 1,
+      "topics": [
+        "museum"
+      ],
+      "recipients": [
+        "R1",
+        "R2",
+        "R3"
+      ]
+    }
+  ]
+}
